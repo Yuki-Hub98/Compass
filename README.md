@@ -1,2 +1,2 @@
 # Compass
-# Projeto 0.1 Compasse
+# Projeto 0.1 Compass
