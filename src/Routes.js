@@ -20,13 +20,16 @@ const Tab = createBottomTabNavigator();
 function Tabs(){
 return(
     <Tab.Navigator>
-        <Tab.Screen name="Home" component={Home} options={{ 
+
+<Tab.Screen name="Home" component={Home} options={{ 
         headerShown: false,
         tabBarLabel:'', 
         tabBarIcon: ({focused,color}) =>
         (<BotaoHome color={color} size= {20} focused={focused} />)
-}}/>
-        <Tab.Screen name="NewAdd" component={RouteCard}  options={{ 
+        }}
+        />
+
+<Tab.Screen name="NewAdd" component={RouteCard}  options={{ 
         headerShown: false,
         tabBarLabel:'',
         tabBarIcon: ({focused, color}) =>
@@ -34,11 +37,14 @@ return(
         }}
         />
 
+
         <Tab.Screen name="Ferramentas" component={Ferramentas} options={{
         headerShown: false,
         tabBarLabel:'',
         tabBarIcon: ({ focused,color}) =>
-        (<BotaoConfiguracao color={color} size= {20} focused={focused}/>)}}/> 
+        (<BotaoConfiguracao color={color} size= {20} focused={focused}/>)
+        }}
+        /> 
 
         
     </Tab.Navigator>

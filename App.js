@@ -8,6 +8,7 @@ import Routes from './src/Routes';
 import { Card } from './src/pages/Card';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+
 const App = () => {
   return (
     

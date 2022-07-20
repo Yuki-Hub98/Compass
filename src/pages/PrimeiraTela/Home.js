@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, Image, SafeAreaView } from 'react-native'
 import {NavigationContainer} from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import styles from './style';
+import styles from './styles';
 import React from 'react';
 
 
