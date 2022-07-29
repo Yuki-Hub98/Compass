@@ -1,1 +1,1 @@
-export {default as MenuHumor} from "./MenuHumor"
+export {default as MenuHumor} from "./MenuHumor";

@@ -1,26 +1,26 @@
 import { StyleSheet } from "react-native"
 
 const styles = StyleSheet.create({
-    tela:{
-        backgroundColor:"#ACACAC",
+    tela: {
+        backgroundColor: "#ACACAC",
         flex: 1,
-        
+
     },
-    botao:{
+    botao: {
         backgroundColor: '#F4F6F9',
-        borderRadius:20,
-        marginTop:10,
-        flexDirection:"row",
-        paddingTop:10,
-        paddingLeft:10,
-        width:380,
-        height:158
- },
-    estado:{
-        flexDirection:"row",
-        alignItems:"baseline",
-        marginLeft:10,
-        
+        borderRadius: 20,
+        marginTop: 10,
+        flexDirection: "row",
+        paddingTop: 10,
+        paddingLeft: 10,
+        width: 380,
+        height: 158
+    },
+    estado: {
+        flexDirection: "row",
+        alignItems: "baseline",
+        marginLeft: 10,
+
     },
     titulo: {
         fontSize: 20,
@@ -32,31 +32,36 @@ const styles = StyleSheet.create({
         alignItems: "center",
         fontSize: 16,
         color: "#ACACAC",
-        marginLeft:10,
+        marginLeft: 10,
 
     },
-    iconesBaixo:{
-        
-        flexDirection:"row",
-        alignItems:'center',
-        paddingTop:20,
-        marginRight:80,
-        alignContent:'flex-start'
-        
-        
+    grupoIcones: {
+        flexDirection: "row",
+        alignItems: 'center',
+        paddingTop: 20,
+        marginRight: 80,
+        alignContent: 'flex-start'
+    },
+    icones: {
+        width: 20,
+        height: 20
     },
     hora: {
-    fontSize:14,
-    color: "#ACACAC",
+        fontSize: 14,
+        color: "#ACACAC",
     },
-    textoBaixo:{
-        fontWeight:"bold",
-        color:'black',
-        margin:10,
-        
-    },
+    textoBaixo: {
+        fontWeight: "bold",
+        color: 'black',
+        margin: 10,
 
-    
+    },
+    pontinho: {
+        fontWeight: "bold",
+        color: 'black'
+    }
+
+
 })
 
 export default styles;

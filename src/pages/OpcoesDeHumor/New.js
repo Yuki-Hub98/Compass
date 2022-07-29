@@ -1,19 +1,20 @@
-import { FlatList} from 'react-native'
+import { FlatList, SafeAreaView } from 'react-native'
 import React from 'react'
-import { listaDeHumor,Humor } from './ListadeHumor';
-import { Item }  from './Item';
-import { SafeAreaView } from 'react-native';
+import { listaDeHumor } from './ListadeHumor';
+import { Item } from './Item';
+
 
 const New = () => {
   return (
     <SafeAreaView>
-        <FlatList
+      <FlatList
         data={listaDeHumor}
-        keyExtractor={(item) => item.id} 
-        renderItem={({item}) => <Item {...item}/> } />
+        keyExtractor={(item) => item.id}
+        renderItem={({ item }) => <Item {...item} />} />
     </SafeAreaView>
-    
-)}
+
+  )
+}
 
 export default New;
 
