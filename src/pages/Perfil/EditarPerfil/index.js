@@ -1,0 +1,1 @@
+export {default as EditarPerfil} from "./EditarPerfil"
